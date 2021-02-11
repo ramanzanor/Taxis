@@ -1,0 +1,77 @@
+    
+body{
+    background-image: url(../IMG/Fondo75.jpg) ; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    }
+
+h1{
+    text-align: center;
+    color: saddlebrown;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:40px;
+    margin: 5px;
+    }
+    #trnav{
+        background-color: blue;
+        text-align: center;
+    }
+    #fecha{text-align: right; 
+    }
+    a.uno:link {color: white;}
+    a.uno:visited {color: green;}
+    a.uno:hover {color: saddlebrown; }
+    a.uno:active {color: blue; }
+td.veinte{
+    width: 20%;
+}
+marquee{width: 30%;}
+p{
+    font: bolder 18px cursive;
+    color: rgb(214, 32, 32);
+    padding: 5px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    text-shadow: 3px 3px 5px white;
+    }
+#nav{
+    background-color:white;
+    width: 100%;
+    margin:  0px;
+    border: 0px;
+    padding: 0px;
+    }
+
+a{
+    font-weight: bold;
+    padding: auto;
+    }
+
+.form{
+    margin: auto;
+    border: 0px;
+    vertical-align: center;
+    line-height:25px;
+    width: 16%;
+    background-color: rgba(256, 256, 256, 0.6);
+}
+hr{
+    margin: 5px;
+}
+#contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items:baseline;
+    background-color: rgb(256, 256, 256, 0.5); 
+    margin: 10px;
+    }
+#item2{ align-self: baseline ; }
+#item3{ align-self: baseline ;  }
+#item1{ align-self: baseline ; }
+#contenedorb{
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    align-content: center;
+       }

@@ -16,12 +16,13 @@ h1{
         background-color: blue;
         text-align: center;
     }
-    #fecha{text-align: right; 
-    }
+    
+    #fecha{text-align: right; }
+
     a.uno:link {color: white;}
-    a.uno:visited {color: green;}
-    a.uno:hover {color: saddlebrown; }
-    a.uno:active {color: blue; }
+    a.uno:visited {color: rgb(173, 235, 173);}
+    a.uno:hover {color: rgb(190, 124, 77); }
+    a.uno:active {color: rgb(255, 255, 255); }
 td.veinte{
     width: 20%;
 }
@@ -53,7 +54,7 @@ a{
     vertical-align: center;
     line-height:25px;
     width: 16%;
-    background-color: rgba(256, 256, 256, 0.6);
+    background-color: rgba(256, 256, 256, 0.8);
 }
 hr{
     margin: 5px;
@@ -62,16 +63,20 @@ hr{
     display: flex;
     justify-content: space-around;
     align-content: center;
-    align-items:baseline;
+    align-items:center;
     background-color: rgb(256, 256, 256, 0.5); 
     margin: 10px;
     }
-#item2{ align-self: baseline ; }
-#item3{ align-self: baseline ;  }
-#item1{ align-self: baseline ; }
+
 #contenedorb{
     display: flex;
     margin: 10px;
     justify-content: space-around;
     align-content: center;
        }
+footer{
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+    

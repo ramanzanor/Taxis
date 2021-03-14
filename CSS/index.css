@@ -1,82 +1,122 @@
+    body {
+        background-image: url(../IMG/Fondo75.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     
-body{
-    background-image: url(../IMG/Fondo75.jpg) ; 
-    background-repeat: no-repeat; 
-    background-size: cover;
+    * {
+        box-sizing: border-box;
+        /*lo que mide es lo que mide*/
     }
-
-h1{
-    text-align: center;
-    color: saddlebrown;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size:40px;
-    margin: 5px;
-    }
-    #trnav{
-        background-color: blue;
+    
+    h1 {
         text-align: center;
+        color: saddlebrown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin: 5px;
     }
     
-    #fecha{text-align: right; }
-
-    a.uno:link {color: white;}
-    a.uno:visited {color: rgb(173, 235, 173);}
-    a.uno:hover {color: rgb(190, 124, 77); }
-    a.uno:active {color: rgb(255, 255, 255); }
-td.veinte{
-    width: 20%;
-}
-marquee{width: 30%;}
-p{
-    font: bolder 18px cursive;
-    color: rgb(214, 32, 32);
-    padding: 5px;
-    margin-left: 1cm;
-    margin-right: 1cm;
-    text-shadow: 3px 3px 5px white;
+    nav {
+        display: grid;
+        grid-column-gap: 1px;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        background-color: white;
+        padding: 1px;
+        position: sticky;
+        top: 0px;
     }
-#nav{
-    background-color:white;
-    width: 100%;
-    margin:  0px;
-    border: 0px;
-    padding: 0px;
+    
+    .nav1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: auto;
     }
-
-a{
-    font-weight: bold;
-    padding: auto;
+    
+    .nav2 {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        align-self: center;
+        text-align: right;
+        padding: 5px;
     }
-
-.form{
-    margin: auto;
-    border: 0px;
-    vertical-align: center;
-    line-height:25px;
-    width: 16%;
-    background-color: rgba(256, 256, 256, 0.8);
-}
-hr{
-    margin: 5px;
-}
-#contenedor{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    align-items:center;
-    background-color: rgb(256, 256, 256, 0.5); 
-    margin: 10px;
+    
+    .nav3 {
+        background-color: blue;
+        font-size: 14pt;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 0px;
     }
-
-#contenedorb{
-    display: flex;
-    margin: 10px;
-    justify-content: space-around;
-    align-content: center;
-       }
-footer{
+    
+    #fecha {
+        text-align: right;
+    }
+    
+    a.uno:link {
+        color: white;
+    }
+    
+    a.uno:visited {
+        color: rgb(173, 235, 173);
+    }
+    
+    a.uno:hover {
+        color: rgb(190, 124, 77);
+    }
+    
+    a.uno:active {
+        color: rgb(255, 255, 255);
+    }
+    
+    marquee {
+        width: 30%;
+    }
+    
+    p {
+        font: bolder 18px cursive;
+        color: rgb(214, 32, 32);
+        padding: 5px;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        text-shadow: 3px 3px 5px white;
+    }
+    
+    a {
+        font-weight: bold;
+        padding: auto;
+    }
+    
+    hr {
+        margin: 5px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.8;
+        background-color: rgb(256, 256, 256, 0.7);
+        margin: auto;
+        width: 30%;
+    }
+    
+    .center {
+        display: block;
+        margin: auto;
+        width: 40%;
+    }
+    
+    #contenedor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(256, 256, 256, 0.5);
+        margin: 10px;
+    }
+    
+    footer {
         position: absolute;
         width: 100%;
         bottom: 0px;
     }
-    

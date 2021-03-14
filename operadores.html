@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taxis-Operadores</title>
     <link rel="stylesheet" href="CSS/sitios.css">
-    </head>
+</head>
+
 <body>
-    <nav >
-        <div class="nav1"><img src="IMG/Logo.jpg" width="220px" height="80"></div>       
-        <div class="nav2"><script src="js/fecha.js" > </script></div>
-        <div class="nav3"><a class="uno" href="index.html">Inicio</a>    </div>
+    <nav>
+        <div class="nav1"><img src="IMG/Logo.jpg" width="220px" height="80"></div>
+        <div class="nav2">
+            <script src="js/fecha.js"> </script>
+        </div>
+        <div class="nav3"><a class="uno" href="index.html">Inicio</a> </div>
         <div class="nav3"><a class="uno" href="unidades.html">Unidades</a></div>
         <div class="nav3"><a class="uno" href="seguros.html">Seguros</a></div>
-        <div class="nav3"><a class="uno" href="sitios.html">Sitios de Interés</a>    </div>     
+        <div class="nav3"><a class="uno" href="sitios.html">Sitios de Interés</a> </div>
     </nav>
-   
-        <h1><marquee>OPERADORES</marquee></h1>
-        <P >Aquí puedes consultar los datos de un operador.</P>
+
+    <header>
+        <h1>
+            <marquee>OPERADORES</marquee>
+        </h1>
+        <p>Aquí puedes consultar los datos de un operador.</p>
+    </header>
+
     <main class="operadores">
-        <aside> 
-        <div>
-                <form action="" method="get" id="operadoractivo" name="frmoperadoractivo">  
+        <aside>
+            <div>
+                <form action="" method="get" id="operadoractivo" name="frmoperadoractivo">
                     Consulta de Operador Activo <br>
-                <input type ="radio" id="nombreactivo" name="nombreactivo" value="Nombre">
-                <label for="nombreactivo"> Nombre:</label>
+                    <input type="radio" id="nombreactivo" name="nombreactivo" value="Nombre">
+                    <label for="nombreactivo"> Nombre:</label>
 
-                <input class="center"  size="30" type="text" value="Nombre de Operador">
+                    <input class="center" size="30" type="text" value="Nombre de Operador">
 
-                <input type ="radio" id="economicoactivo" name="economicoactivo" value="Economico">
-                <label for="economicoactivo">Economico : </label><input size="5" type="number" min="1" max="99"><br>
-                <input class="center" size="5px" type="button" value="Buscar">
+                    <input type="radio" id="economicoactivo" name="economicoactivo" value="Economico">
+                    <label for="economicoactivo">Economico : </label><input size="5" type="number" min="1" max="99"><br>
+                    <input class="center" size="5px" type="button" value="Buscar">
                 </form>
-        </div>
-        <div>
-            
-            <form action="" method="get" id="exoperador" name="frmexoperador">  
-                Consulta de Ex - Operador <br>
-                <input  type ="radio" id="nombreex" name="nombreex" value="ExOperador">
-                <label for="nombreex">Nombre: </label> <br>
-                <input class="center" type="text" size="30" value="Nombre de Operador">
-                <input type ="radio" id="economicoex" name="economicoex" value="Economicoex">
-                <label for="economicoex">Economico :</label>  <input type="number" min="1" max="99" size="5" ><br>
-                <input class="center" size="5px" type="button" value="Buscar">
+            </div>
+            <div>
+                <form action="" method="get" id="exoperador" name="frmexoperador">
+                    Consulta de Ex - Operador <br>
+                    <input type="radio" id="nombreex" name="nombreex" value="ExOperador">
+                    <label for="nombreex">Nombre: </label> <br>
+                    <input class="center" type="text" size="30" value="Nombre de Operador">
+                    <input type="radio" id="economicoex" name="economicoex" value="Economicoex">
+                    <label for="economicoex">Economico :</label> <input type="number" min="1" max="99" size="5"><br>
+                    <input class="center" size="5px" type="button" value="Buscar">
                 </form>
-        </div>    
+            </div>
         </aside>
         <section>
             <div class="t">Nombre:</div>
@@ -54,35 +62,41 @@
             <div class="t">Eco. Inicio</div>
             <div>9</div>
             <div class="t">Eco. Fin</div>
-            <div >12</div>
+            <div>12</div>
             <div class="t">Salio</div>
             <div>10/01/2019</div>
             <div class="t">Telefono:</div>
             <div></div>
-            <div class="t">Celular:</div> 
+            <div class="t">Celular:</div>
             <div>55-8171-1657</div>
             <div class="t">Dirección:</div>
             <div>Gallo Colorado # 386, Col. Benito Juárez</div>
             <div class="t">Vigencia Tarjeton:</div>
             <div>04/10/2018</div>
             <div class="t">Observaciones:</div>
-            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum fugit nesciunt distinctio consequatur, dignissimos nisi</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic laborum fugit nesciunt distinctio
+                consequatur, dignissimos nisi</div>
             <div class="foto"><img class="tarjeton" src="IMG/Alan Jushep Medina Serrato.jpg" alt=""></div>
         </section>
     </main>
-<footer>
-    <hr>
-    <div id="contenedor">
-        <div id="item1"><a href="mailto:ramanzanor@gmail.com ">ramanzanor@gmail.com</a> </div> 
-        <div id="item2"><a href="mailto:ramanzanor@gmail.com ">  <img src="IMG/icon_gmail.png" alt="Icono Gmail" width="30px"></a></div> 
-        <div></div><div></div><div></div>
-        <div id="item3" >RMR | 2021 </div>
-        <div></div><div></div><div></div>
-        <div id="item4" ><img src="IMG/whatsapp_icon.png" alt="Icono Whatsapp" width="30"></div>
-        <div id="item5" >55-6740-8911</div>
-    </div>
-     
-</footer>
+
+    <footer>
+        <hr>
+        <div id="contenedor">
+            <div id="item1"><a href="mailto:ramanzanor@gmail.com ">ramanzanor@gmail.com</a> </div>
+            <div id="item2"><a href="mailto:ramanzanor@gmail.com "> <img src="IMG/icon_gmail.png" alt="Icono Gmail"
+                        width="30px"></a></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div id="item3">RMR | 2021 </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div id="item4"><img src="IMG/whatsapp_icon.png" alt="Icono Whatsapp" width="30"></div>
+            <div id="item5">55-6740-8911</div>
+        </div>
+    </footer>
 
 </body>
 </html>

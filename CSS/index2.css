@@ -1,0 +1,268 @@
+    body {
+        background-image: url(../IMG/Fondo75.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0px;
+    }
+    
+    * {
+        box-sizing: border-box;
+        /*lo que mide es lo que mide*/
+    }
+    
+    h1 {
+        display: block;
+        text-align: center;
+        color: saddlebrown;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin: 5px;
+    }
+    
+    nav {
+        padding: 1px;
+        margin: 0px;
+        display: grid;
+        grid-column-gap: 1px;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        background-color: white;
+        position: sticky;
+        top: 0px;
+    }
+    
+    .nav1 {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        margin: auto;
+    }
+    
+    .nav2 {
+        grid-column-start: 2;
+        grid-column-end: 6;
+        align-self: center;
+        text-align: right;
+        padding: 5px;
+    }
+    
+    .nav3 {
+        background-color: blue;
+        font-size: 14pt;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 0px;
+    }
+    
+    #fecha {
+        text-align: right;
+    }
+    
+    marquee {
+        width: 40%;
+    }
+    
+    a {
+        font-weight: bold;
+        padding: auto;
+    }
+    
+    a.uno:link {
+        color: white;
+    }
+    
+    a.uno {
+        color: white;
+    }
+    
+    a.uno:visited {
+        color: rgb(173, 235, 173);
+    }
+    
+    a.uno:hover {
+        color: rgb(190, 124, 77);
+    }
+    
+    a.uno:active {
+        color: rgb(255, 255, 255);
+    }
+    
+    p {
+        font: bolder 18px cursive;
+        color: rgb(214, 32, 32);
+        background-color: rgb(256, 256, 256, 0.7);
+        border-radius: .5em;
+        padding: 0px;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        text-shadow: 3px 3px 5px rgb(226, 76, 176);
+    }
+    
+    p.sitios {
+        font: bold 20px cursive;
+        text-align: center;
+        color: rgb(214, 32, 32);
+        border-radius: .5em;
+        background-color: rgb(256, 256, 256, 0.7);
+        padding: 0px;
+        margin-top: 0px;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-bottom: 5px;
+        text-shadow: 3px 3px 5px rgb(226, 76, 176);
+    }
+    
+    main.sitios {
+        display: grid;
+        justify-content: space-evenly;
+        margin: 10px;
+        grid-column-gap: 1px;
+        grid-template-columns: 20% 20% 20%;
+        padding: 1px;
+    }
+    
+    hr {
+        margin: 5px;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.8;
+        background-color: rgb(256, 256, 256, 0.7);
+        border-radius: .5em;
+        margin: auto;
+        width: 30%;
+    }
+    
+    .center {
+        display: block;
+        margin: auto;
+    }
+    
+    #contenedor {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        background-color: rgb(256, 256, 256, 0.5);
+        margin: 10px;
+    }
+    
+    footer {
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+    }
+    
+    main.sitios>div {
+        background-color: rgba(256, 256, 256, 0.9);
+        text-align: justify;
+        padding: 10px 5px;
+        font-size: 16px;
+    }
+    main.operadores {
+        display: flex;
+        justify-content:space-between ;
+    }
+    
+    section.operadores {
+        display: grid;
+        grid-template-columns: 25% 45% 40%;
+        background-color: rgba(256, 256, 256, 0.8);
+        margin: auto;
+        padding: auto;
+        justify-content: space-evenly;
+    }
+    
+    section.operadores>div {
+        grid-template-columns: auto auto auto;
+        padding: 5px;
+        justify-content: center;
+        border: 1px black solid;
+    }
+    
+    aside.operadores {
+        display: grid;
+        grid-template-rows: auto;
+        border-radius: .5em;
+        background-color: rgba(256, 256, 256, 0.8);
+        padding: 10px;
+        margin: 10px;
+        line-height: 2;
+        justify-content: space-between;
+    }
+    
+    aside.operadores>div {
+        padding: 10px;
+    }
+    
+    div.foto {
+        margin: 0px;
+        padding: 0px;
+        border: black solid;
+        grid-column: 3/4;
+        grid-row: 1/11;
+    }
+    
+    img.tarjeton {
+        width: 330px;
+        height: 354px;
+    }
+    
+    main.vacantes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    
+    main.vacantes>div {
+        background-color: rgba(256, 256, 256, 0.9);
+        font-size: 18pt;
+        line-height: 1.5;
+    }
+    
+   
+    
+    div.t {
+        background-color: rgb(15, 170, 221, 0.4);
+        font: bolder cursive;
+        color: rgb(214, 32, 32);
+        text-shadow: 3px 3px 5px white;
+    }
+    
+    main.unidades {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    aside.unidades {
+        justify-content: space-evenly;
+        font-size: 13pt;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.unidades {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    section.unidades>div {
+        padding: 5px;
+        justify-content: center;
+        border: 1px black solid;
+    
+    a.dos {
+        background-color: rgb(102, 229, 252, 0.8);
+        font-size: 16pt;
+        font-weight: bold;
+        padding: auto;
+    }
+    
+    a.dos:hover {
+        color: rgba(31, 161, 184, 0.8);
+    }
